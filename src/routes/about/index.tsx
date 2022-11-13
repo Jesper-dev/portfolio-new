@@ -4,11 +4,11 @@ import type { DocumentHead } from '@builder.io/qwik-city'
 export default component$(() => {
     return (
         <div>
-            <h1>Jesper</h1>
+            <h1>About</h1>
         </div>
     )
 })
 
 export const head: DocumentHead = {
-    title: 'Jesper Pettersson',
+    title: 'About',
 }
