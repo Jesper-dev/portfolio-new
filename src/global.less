@@ -9,11 +9,12 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--background-base);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: var(--text-color);
+  background-color: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(162,43,143,1) 75%, rgba(0,212,255,1) 100%);
 }
 
 .main-view-container {
@@ -29,9 +30,11 @@ body {
     align-items: center;
     flex: 1 1 auto;
     background-color: var(--main-view);
-    // width: 98%;
     height: 100%;
-    border: 5px solid var(--border-color);
+    border: 1px solid var(--text-color);
     border-radius: 10px;
+    margin-top: 1%;
+    padding: 8px;
+
   }
 }
