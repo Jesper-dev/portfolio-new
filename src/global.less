@@ -1,9 +1,10 @@
 @import (css) url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-  --main-view: #a9d1ff;
+  --main-view: #081b30;
   --background-base: #fff5ff;
   --border-color: #cc00ff;
+  --text-color: #cfcfcf;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--text-color);
 }
 
 .main-view-container {
@@ -22,10 +24,14 @@ body {
   margin: 4px;
 
   .main-view {
-      background-color: var(--main-view);
-      width: 95%;
-      height: 100%;
-      border: 5px solid var(--border-color);
-      border-radius: 10px;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    background-color: var(--main-view);
+    // width: 98%;
+    height: 100%;
+    border: 5px solid var(--border-color);
+    border-radius: 10px;
+  }
 }
